@@ -1,0 +1,123 @@
+
+.button {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+  flex: 0 0 auto;
+  border-radius: 5px;
+}
+
+.button svg {
+  display: block;
+  width: 15px;
+  height: 15px;
+}
+
+.button.small {
+  width: 30px;
+  height: 30px;
+}
+
+.button.wide {
+  height: 30px;
+  padding: 5px 10px;
+}
+
+.button.outline {
+  border: 1px solid var(--white-100);
+  color: var(--white-100);
+  fill: var(--white-100);
+}
+
+.button.fill {
+  background: var(--white-100);
+  border: none !important;
+  color: var(--dark-100);
+  fill: var(--white-100);
+}
+
+.button.fill.green {
+  background: var(--green);
+  color: var(--dark-100);
+  fill: var(--dark-100);
+}
+
+.button.outline:hover,
+.button.outline.green {
+  border: 1px solid var(--green);
+  color: var(--green);
+  fill: var(--green);
+}
+
+.button.fill:hover,
+.button.outline.green:hover {
+  background: var(--green-hover);
+  border: 1px solid var(--green-hover);
+  color: var(--dark-100);
+  fill: var(--dark-100);
+}
+
+.button.fill:active,
+.button.outline:active,
+.button.outline.green:active {
+  background: var(--green-active);
+  border: 1px solid var(--green-active);
+  color: var(--dark-100);
+  fill: var(--dark-100);
+}
+
+.button.menu {
+  width: 30px;
+  height: 30px;
+  fill: var(--white-100);
+}
+
+.button.menu:hover {
+  width: 30px;
+  height: 30px;
+  fill: var(--green);
+}
+
+.button.menu:active {
+  width: 30px;
+  height: 30px;
+  fill: var(--green-active);
+}
+
+.button.menu svg {
+  width: 30px;
+  height: 30px;
+}
+
+.card-options-button {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 3px;
+  right: 10px;
+  cursor: pointer;
+  fill: var(--white-100)
+}
+
+.card-options-button:hover {
+  fill: var(--green)
+}
+
+.card-options-button:active {
+  fill: var(--green-active)
+}
+
+.skeleton .card-options-button {
+  pointer-events: none;
+  cursor: default;
+  fill: var(--dark-200) !important;
+}

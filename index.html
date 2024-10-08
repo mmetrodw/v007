@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/posts.css">
+  <link rel="stylesheet" href="assets/css/users-grid.css">
+  <link rel="stylesheet" href="assets/css/chats.css">
+  <link rel="stylesheet" href="assets/css/buttons.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div id="logo">RN</div>
+      <button class="button wide outline">Log In</button>
+      <button class="button wide fill green">Sign Up</button>
+      <button class="button wide outline green">
+        <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+          <path d="M11.538,1.538c0-.851-.688-1.538-1.538-1.538s-1.538.687-1.538,1.538v6.923H1.538c-.851,0-1.538.688-1.538,1.538s.687,1.538,1.538,1.538h6.923v6.923c0,.851.688,1.538,1.538,1.538s1.538-.687,1.538-1.538v-6.923h6.923c.851,0,1.538-.687,1.538-1.538s-.687-1.538-1.538-1.538h-6.923V1.538Z"/>
+        </svg>
+        Add Post
+      </button>
+      <button class="button small outline">
+        <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+          <path d="M0,16.25c0,.691.559,1.25,1.25,1.25h2.137c.48,1.105,1.582,1.875,2.863,1.875s2.383-.77,2.863-1.875h9.637c.691,0,1.25-.559,1.25-1.25s-.559-1.25-1.25-1.25h-9.637c-.48-1.105-1.582-1.875-2.863-1.875s-2.383.77-2.863,1.875H1.25c-.691,0-1.25.559-1.25,1.25ZM5,16.25c0-.69.56-1.25,1.25-1.25s1.25.56,1.25,1.25-.56,1.25-1.25,1.25-1.25-.56-1.25-1.25ZM12.5,10c0-.69.56-1.25,1.25-1.25s1.25.56,1.25,1.25-.56,1.25-1.25,1.25-1.25-.56-1.25-1.25ZM13.75,6.875c-1.281,0-2.383.77-2.863,1.875H1.25c-.691,0-1.25.559-1.25,1.25s.559,1.25,1.25,1.25h9.637c.48,1.105,1.582,1.875,2.863,1.875s2.383-.77,2.863-1.875h2.137c.691,0,1.25-.559,1.25-1.25s-.559-1.25-1.25-1.25h-2.137c-.48-1.105-1.582-1.875-2.863-1.875ZM7.5,5c-.69,0-1.25-.56-1.25-1.25s.56-1.25,1.25-1.25,1.25.56,1.25,1.25-.56,1.25-1.25,1.25ZM10.363,2.5c-.48-1.105-1.582-1.875-2.863-1.875s-2.383.77-2.863,1.875H1.25c-.691,0-1.25.559-1.25,1.25s.559,1.25,1.25,1.25h3.387c.48,1.105,1.582,1.875,2.863,1.875s2.383-.77,2.863-1.875h8.387c.691,0,1.25-.559,1.25-1.25s-.559-1.25-1.25-1.25h-8.387Z"/>
+        </svg>
+      </button>
+      <button class="button menu">
+        <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+          <path d="M0,2.857c0-.79.638-1.429,1.429-1.429h17.143c.79,0,1.429.638,1.429,1.429s-.638,1.429-1.429,1.429H1.429c-.79,0-1.429-.638-1.429-1.429ZM0,10c0-.79.638-1.429,1.429-1.429h17.143c.79,0,1.429.638,1.429,1.429s-.638,1.429-1.429,1.429H1.429c-.79,0-1.429-.638-1.429-1.429ZM20,17.143c0,.79-.638,1.429-1.429,1.429H1.429c-.79,0-1.429-.638-1.429-1.429s.638-1.429,1.429-1.429h17.143c.79,0,1.429.638,1.429,1.429Z"/>
+        </svg>
+      </button>
+    </header>
+    <main>
+      <section class="posts-feed">
+        <div class="post-card">
+          <img class="post-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="post-content">
+            <div class="post-header">
+              <div class="user-name">Cruiser</div>
+              <div class="user-status online"></div>
+              <div class="user-distance"><b>1</b> km</div>
+            </div>
+            <div class="post-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div class="post-footer">
+              <div class="post-user-details">
+                <div><img src="assets/img/age.svg"><span>33</span></div>
+                <div><img src="assets/img/height.svg"><span>182</span></div>
+                <div><img src="assets/img/weight.svg"><span>72</span></div>
+                <div><img src="assets/img/length.svg"><span>16</span></div>
+                <div><img src="assets/img/girth.svg"><span>3.5</span></div>
+                <div><span><b>Vers Top</b></span></div>
+              </div>
+              <div class="post-date">15:35</div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+        </div>
+        
+        <div class="post-card">
+          <img class="post-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="post-content">
+            <div class="post-header">
+              <div class="user-name">Круїзер</div>
+              <div class="user-status was-online"></div>
+              <div class="user-distance"><b>1</b>km</div>
+            </div>
+            <div class="post-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div class="post-footer">
+              <div class="post-user-details">
+                <div><img src="assets/img/age.svg"><span>33</span></div>
+                <div><img src="assets/img/height.svg"><span>182</span></div>
+                <div><img src="assets/img/weight.svg"><span>72</span></div>
+                <div><img src="assets/img/length.svg"><span>16</span></div>
+                <div><span><b>Vers Top</b></span></div>
+              </div>
+              <div class="post-date">15:35</div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+          <div class="card-options-wrapper">
+            <button class="card-option">Report <img src="assets/img/report.svg"></button>
+            <button class="card-option pink">Block User <img src="assets/img/ban.svg"></button>
+          </div>
+        </div>
+        
+        <div class="post-card">
+          <img class="post-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="post-content">
+            <div class="post-header">
+              <div class="user-name">Dom Top XXL</div>
+              <div class="user-status offline"></div>
+              <div class="user-distance"><b>1</b> km</div>
+            </div>
+            <div class="post-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div class="post-footer">
+              <div class="post-user-details">
+                <div><img src="assets/img/age.svg"><span>33</span></div>
+                <div><img src="assets/img/height.svg"><span>182</span></div>
+                <div><img src="assets/img/weight.svg"><span>72</span></div>
+              </div>
+              <div class="post-date">15:35</div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+        </div>
+        
+        <div class="post-card self">
+          <img class="post-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="post-content">
+            <div class="post-header">
+              <div class="user-name">Dom Top XXL</div>
+              <div class="user-status online"></div>
+              <div class="user-distance"><b>1</b> km</div>
+            </div>
+            <div class="post-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div class="post-footer">
+              <div class="post-user-details">
+                <div><img src="assets/img/height.svg"><span>182</span></div>
+                <div><img src="assets/img/weight.svg"><span>72</span></div>
+                <div><img src="assets/img/length.svg"><span>16</span></div>
+              </div>
+              <div class="post-date">15:35</div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+          <div class="card-options-wrapper">
+            <button class="card-option green">Boost Post <img src="assets/img/boost.svg"></button>
+            <button class="card-option">Edit Post <img src="assets/img/edit.svg"></button>
+            <button class="card-option pink">Delete Post <img src="assets/img/delete.svg"></button>
+          </div>
+        </div>
+        
+        <div class="post-card skeleton">
+          <img class="post-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="post-content">
+            <div class="post-header">
+              <div class="user-name"></div>
+              <div class="user-status"></div>
+              <div class="user-distance"></div>
+            </div>
+            <div class="post-body"></div>
+            <div class="post-footer">
+              <div class="post-user-details"></div>
+              <div class="post-date"></div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+        </div>
+      </section>
+
+      <section class="users-grid">
+        <div class="user-card">
+          <img class="user-card-image" src="assets/img/user-default-image.svg"/>
+          <div class="user-details">
+            <div class="user-distance">1 km</div>
+            <div class="user-name">Cruiser<div class="user-status online"></div></div>
+          </div>
+        </div>
+        
+        <div class="user-card">
+          <img class="user-card-image" src="assets/img/user-default-image.svg"/>
+          <div class="user-details">
+            <div class="user-distance">1 km</div>
+            <div class="user-name">Круїзер<div class="user-status was-online"></div></div>
+          </div>
+        </div>
+        
+        <div class="user-card">
+          <img class="user-card-image" src="assets/img/user-default-image.svg"/>
+          <div class="user-details">
+            <div class="user-distance">1 km</div>
+            <div class="user-name">Cruiser<div class="user-status offline"></div></div>
+          </div>
+        </div>
+        
+        <div class="user-card skeleton">
+          <img class="user-card-image" src="assets/img/user-default-image.svg"/>
+          <div class="user-details">
+            <div class="user-distance"></div>
+            <div class="user-name"><div class="user-status"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="chats-wrapper">
+        <div class="chat-card unread">
+          <img class="chat-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="chat-content">
+            <div class="chat-header">
+              <div class="user-name">Cruiser</div>
+              <div class="user-status online"></div>
+              <div class="user-distance"><b>1</b> km</div>
+            </div>
+            <div class="chat-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div class="chat-footer">
+              <div class="chat-unread-count">5</div>
+              <div class="chat-date">15:35</div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="chat-card">
+          <img class="chat-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="chat-content">
+            <div class="chat-header">
+              <div class="user-name">Cruiser</div>
+              <div class="user-status was-online"></div>
+              <div class="user-distance"><b>1</b> km</div>
+            </div>
+            <div class="chat-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div class="chat-footer">
+              <div class="chat-date">15:35</div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+        </div>
+
+        <div class="chat-card unread">
+          <img class="chat-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="chat-content">
+            <div class="chat-header">
+              <div class="user-name">Cruiser</div>
+              <div class="user-status offline"></div>
+              <div class="user-distance"><b>1</b> km</div>
+            </div>
+            <div class="chat-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            <div class="chat-footer">
+              <div class="chat-unread-count">1</div>
+              <div class="chat-date">15:35</div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+          <div class="card-options-wrapper">
+            <button class="card-option">Mark as Read <img src="assets/img/mark-as-read.svg"></button>
+            <button class="card-option">Report <img src="assets/img/report.svg"></button>
+            <button class="card-option pink">Delete Chat <img src="assets/img/delete.svg"></button>
+            <button class="card-option pink">Block User <img src="assets/img/ban.svg"></button>
+          </div>
+        </div>
+
+        <div class="chat-card skeleton">
+          <img class="chat-user-image" src="assets/img/user-default-image.svg"/>
+          <div class="chat-content">
+            <div class="chat-header">
+              <div class="user-name"></div>
+              <div class="user-status"></div>
+              <div class="user-distance"></div>
+            </div>
+            <div class="chat-body"></div>
+            <div class="chat-footer">
+              <div class="chat-user-details">
+              </div>
+              <div class="chat-date"></div>
+            </div>
+          </div>
+          <button class="card-options-button">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+              <path d="M0,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM7.5,10c0-1.381,1.119-2.5,2.5-2.5s2.5,1.119,2.5,2.5-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5ZM17.5,7.5c1.381,0,2.5,1.119,2.5,2.5s-1.119,2.5-2.5,2.5-2.5-1.119-2.5-2.5,1.119-2.5,2.5-2.5Z"/>
+            </svg>
+          </button>
+        </div>
+
+      </section>
+    </main>
+    <footer>
+      <a href="#" class="nav-link active">
+        <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+          <path d="M19.995,9.981c0,.625-.521,1.115-1.111,1.115h-1.111l.024,5.564c0,.094-.007.188-.017.281v.563c0,.768-.622,1.389-1.389,1.389h-.556c-.038,0-.076,0-.115-.003-.049.003-.097.003-.146.003l-1.129-.003h-.834c-.768,0-1.389-.622-1.389-1.389v-3.056c0-.615-.497-1.111-1.111-1.111h-2.223c-.615,0-1.111.497-1.111,1.111v3.056c0,.768-.622,1.389-1.389,1.389h-1.941c-.052,0-.104-.003-.156-.007-.042.003-.083.007-.125.007h-.556c-.768,0-1.389-.622-1.389-1.389v-3.89c0-.031,0-.066.003-.097v-2.421h-1.111c-.625,0-1.111-.486-1.111-1.115,0-.313.104-.59.347-.834L9.249,1.385c.243-.243.521-.278.764-.278s.521.069.729.243l8.87,7.797c.278.243.417.521.382.834Z"/>
+        </svg>
+      </a>
+      <a href="#" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+          <path d="M10.926,19.551c2.004-2.514,6.574-8.608,6.574-12.031,0-4.151-3.359-7.519-7.5-7.519S2.5,3.368,2.5,7.519c0,3.423,4.57,9.517,6.574,12.031.48.599,1.371.599,1.852,0h0ZM10,5.013c1.381,0,2.5,1.122,2.5,2.506s-1.119,2.506-2.5,2.506-2.5-1.122-2.5-2.506,1.119-2.506,2.5-2.506Z" />
+        </svg>
+      </a>
+      <a href="#" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+          <path d="M16.251,8.124c0,1.793-.582,3.449-1.563,4.792l4.946,4.948c.488.488.488,1.281,0,1.769-.488.488-1.281.488-1.77,0l-4.946-4.948c-1.344.984-3,1.562-4.793,1.562C3.637,16.248,0,12.611,0,8.124S3.637,0,8.125,0s8.125,3.636,8.125,8.124ZM8.125,13.748c3.107,0,5.625-2.518,5.625-5.624s-2.519-5.624-5.625-5.624-5.625,2.518-5.625,5.624,2.519,5.624,5.625,5.624Z" />
+        </svg>
+      </a>
+      <a href="#" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+          <path d="M2.5,0C1.121,0,0,1.121,0,2.5v11.25c0,1.379,1.121,2.5,2.5,2.5h3.75v3.125c0,.238.133.453.344.559.211.105.465.082.656-.059l4.832-3.625h5.418c1.379,0,2.5-1.121,2.5-2.5V2.5C20,1.121,18.879,0,17.5,0H2.5Z"/>
+        </svg>
+      </a>
+      <a href="#" class="nav-link">
+        <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 20 20">
+          <path d="M10,11.25c3.107,0,5.625-2.518,5.625-5.625S13.107,0,10,0s-5.625,2.518-5.625,5.625,2.518,5.625,5.625,5.625ZM6.301,12.5c-3.48,0-6.301,2.82-6.301,6.301,0,.664.539,1.199,1.199,1.199h17.602c.664,0,1.199-.539,1.199-1.199,0-3.48-2.82-6.301-6.301-6.301h-7.398Z"/>
+        </svg>
+      </a>
+    </footer>
+  </div>
+</body>
+</html>
